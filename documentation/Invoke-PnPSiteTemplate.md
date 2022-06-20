@@ -93,7 +93,7 @@ This will create two new ExtensibilityHandler objects that are run while provisi
 
 ### EXAMPLE 8
 ```powershell
-Invoke-PnPSiteTemplate -Path .\ -InputInstance $template
+Invoke-PnPSiteTemplate -InputInstance $template
 ```
 
 Applies a site template from an in-memory instance of a SiteTemplate type of the PnP Core Component, reading the supporting files, if any, from the current (.\) path. The syntax can be used together with any other supported parameters.
